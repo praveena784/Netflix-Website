@@ -1,0 +1,229 @@
+<html>
+
+<head>
+    <meta name="description" content="Hello this is my first web page!." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
+    <title>Netflix Webpage</title>
+    <link rel="icon" href="http://pngimg.com/uploads/netflix/small/netflix_PNG15.png" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar__brand">
+                <img src="https://www.freepnglogos.com/uploads/netflix-logo-0.png" alt="logo" class="brand__logo" />
+                
+            </div>
+
+
+
+
+            <div class="navbar__nav__items">
+                <div class="nav__item">
+                    <div class="dropdown__container">
+                        <i class="fas fa-globe"></i>
+                        <select name="languages" id="languagesSelect" class="drop__down">
+                            <option value="english" selected style="color: red;">English</option>
+                            <option value="hindi" style="color: red;">हिन्दी</option>
+                            <option value="telugu" style="color: red;">Telugu</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="button-item">
+                    <button class="signin__button">Sign in</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-----home-section-start---------->
+    <main>
+        <div id="home-section">
+            <section class="body-section">
+                <div class="image-container">
+                    <img src="https://assets.nflxext.com/ffe/siteui/vlv3/9c5457b8-9ab0-4a04-9fc1-e608d5670f1a/710d74e0-7158-408e-8d9b-23c219dee5df/IN-en-20210719-popsignuptwoweeks-perspective_alpha_website_small.jpg" alt="BG hero image" class="body-image" />
+                </div>
+
+                <div class="bg-overlay"></div>
+
+                <div class="hero__card">
+                    <h1 class="hero__title">
+                        Unlimited Movies TV,<br />
+                        Shows and More.
+                    </h1>
+                    <p class="hero__subtitle">Watch anywhere and cancel anytime.</p>
+                    <p class="hero__description">
+                        Ready to watch? Enter your email to create or restart your
+                        membership .
+                    </p>
+
+                    <div class="email__form__container">
+                        <div class="form__container">
+                            <input type="email" class="email__input" placeholder=" " />
+                            <label class="email__label">Email Address</label>
+                        </div>
+                        <button class="button">
+                            Get Started <i class="fal fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-----home-section-end---------->
+
+
+
+        <!-----TV-section-Start---------->
+
+        <div id="TV-Shows-Section">
+
+            <div class="feature">
+                <div class="feature__details">
+                    <h3 class="feature__title">Enjoy on your TV.</h3>
+                    <h5 class="feature__sub__title">
+                        Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+                        Blu-ray players and more.
+                    </h5>
+                </div>
+
+                <div class="feature_image_container">
+
+                  <img src ="https://t3.ftcdn.net/jpg/03/26/85/16/360_F_326851671_vBcoTJVlYI7Du1QAjg5Am1gaWc8yhu2S.jpg" class = "image" />
+    
+                    </div>
+                </div>
+            </div>
+
+            <!-- TV-Section-End -->
+            <div class="feature">
+                <div class="feature__details">
+                    <h3 class="feature__title">
+                        Download your shows to watch offline.
+                    </h3>
+                    <h5 class="feature__sub__title">
+                        Save your favourites easily and always have something to watch.
+                    </h5>
+                </div>
+                <div class="feature__image__container">
+                    <img src="https://i.ytimg.com/vi/6N74cKGre9E/maxresdefault.jpg" alt="Feature image" class="feature__image" />
+                    <div class="feature__2__poster__container">
+                        <div class="poster__container">
+                            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png" alt="poster" class="poster" />
+                        </div>
+                        <div class="poster__details">
+                            <h6>Downloading...</h6>
+                        </div>
+                        <div class="download__gif__container">
+                            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif" alt="downloading gif" class="gif" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Feature 3 -->
+
+
+
+            <div class="feature">
+                <div class="feature__details">
+                    <h3 class="feature__title">Watch everywhere.</h3>
+                    <h5 class="feature__sub__title">
+                        Stream unlimited movies and TV shows on your phone, tablet,
+                        laptop, and TV.
+                    </h5>
+                </div>
+
+                <div class="feature__image__container">
+                    <img src="https://media.istockphoto.com/id/1325277622/photo/handsome-arab-guy-surfing-on-internet-using-laptop.jpg?s=612x612&w=0&k=20&c=DlPPWcHfz03b7gRKqUTPRzGSM3aMHl-YHvHKNnnjT-8=" alt="Feature image" class="image" />
+                </div>
+
+
+            </div>
+        </div>
+        <!-- Feature 4 -->
+        <div class="feature">
+            <div class="feature__details">
+                <h3 class="feature__title">Create profiles for children.</h3>
+                <h5 class="feature__sub__title">
+                    Send children on adventures with their favourite characters in a
+                    space made just for them—free with your membership.
+                </h5>
+            </div>
+            <div class="feature__image__container">
+                <img src="https://occ-0-4023-2164.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVxdX2WnFSp49eXb1do0euaj-F8upNImjofE77XStKhf5kUHG94DPlTiGYqPeYNtiox-82NWEK0Ls3CnLe3WWClGdiJP.png?r=5cf" alt="Feature image" class="feature__image" />
+            </div>
+        </div>
+
+
+
+        <section class="container">
+            <div>
+                <h3 class="heading">
+                    Ready to watch? Enter your email to create or restart your
+                    membership.
+                </h3>
+                <div class="email__form__container">
+                    <div class="form__container">
+                        <input type="email" class="email__input" placeholder=" " />
+                        <label class="email__label">Email Address</label>
+                    </div>
+
+
+                    <button class="button">
+                        Get Started <i class="fal fa-chevron-right"></i>
+                    </button>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="below-section">
+            <h4>Questions? Call 001-200-030-1943</h4>
+        </div>
+        <div class="footer__row__2">
+            <div class="column__1">
+                <p>FAQ</p>
+                <p>Privacy</p>
+                <p>Speed Test</p>
+            </div>
+            <div class="column__2">
+                <p>Help Centre</p>
+                <p>Jobs</p>
+                <p>Legal Notices</p>
+            </div>
+            <div class="column__3">
+                <p>Account</p>
+                <p>Ways to Watch</p>
+                <p>Only on Netflix</p>
+            </div>
+            <div class="column__4">
+                <p>Media Centre</p>
+                <p>Terms of Use</p>
+                <p>Contact Us</p>
+            </div>
+        </div>
+        <div class="footer__row__3">
+            <div class="dropdown__container">
+                <i class="fas fa-globe"></i>
+                <select name="languages" id="languagesSelect" class="language__drop__down">
+                    <option value="english" selected>English</option>
+                    <option value="hindi">हिन्दी</option>
+                    <option value="english">Telugu</option>
+                </select>
+            </div>
+        </div>
+        <div class="footer__row__4">
+            <p>Netflix India</p>
+        </div>
+    </footer>
+</body>
+
+</html>
